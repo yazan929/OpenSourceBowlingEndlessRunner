@@ -22,6 +22,10 @@ public class Player : MonoBehaviour
     Rigidbody rb;
     Animator animator;
 
+    public AudioSource AudioSource;
+    public AudioClip hitBlockerAudio;
+    public AudioClip hitBoolingAudio;
+
 
     void Awake()
     {
@@ -80,6 +84,7 @@ public class Player : MonoBehaviour
             {
 
                 animator.SetTrigger("hit");
+                AudioSource.PlayOneShot(hitBlockerAudio);
                 health.Damage(1);
             }
 
