@@ -6,8 +6,7 @@ Open Source Endless Runner Bowling Ball Game
 
 ## Demo/Attachments
 
-[![Image](https://i.ibb.co/k65F3n7/7263dcf5-133e-44fd-b4ab-5e8e25517e64.jpg "Image 1")](https://github.com/yazan929/OpenSourceBowlingEndlessRunner)
-[![Image](https://raw.githubusercontent.com/yazan929/OpenSourceBowlingEndlessRunner/demo/image2.jpeg "Image 2")](https://github.com/yazan929/OpenSourceBowlingEndlessRunner)
+[![Image](https://i.ibb.co/k65F3n7/7263dcf5-133e-44fd-b4ab-5e8e25517e64.jpg "Image 1")](https://github.com/yazan929/OpenSourceBowlingEndlessRunner)[![Image](https://i.ibb.co/PYYFc09/b34e762a-d55b-49ff-a785-3f0402aa7a65.jpg "Image 2")](https://github.com/yazan929/OpenSourceBowlingEndlessRunner)
 
 ## Requirments
 
