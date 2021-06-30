@@ -3451,8 +3451,6 @@ MonoBehaviour:
   - {fileID: 399564302}
   - {fileID: 2050931484}
   - {fileID: 2146169262}
-  - {fileID: 1015589377}
-  - {fileID: 1180744697}
   currentLand: {fileID: 1900298522}
   startTileIndex: 0
   maxRepeat: 3
@@ -3471,7 +3469,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 3
 --- !u!114 &820340427
 MonoBehaviour:
