@@ -9,9 +9,9 @@ public class skybox : MonoBehaviour
     void Start()
     {
 
-            RenderSettings.skybox = skyBox[Random.Range(0, skyBox.Length)];
-        
-   
+        RenderSettings.skybox = skyBox[Random.Range(0, skyBox.Length)];
 
-}
+
+
+    }
 }
