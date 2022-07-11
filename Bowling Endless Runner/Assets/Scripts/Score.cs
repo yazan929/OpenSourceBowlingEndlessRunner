@@ -37,7 +37,7 @@ public class Score : MonoBehaviour
 
         int currentScore = int.Parse(scoreText.text);
         currentScore += x;
-        LeanTween.scale(scoreText.gameObject, new Vector3(1.5f, 1.5f), 0.2f).setEase(LeanTweenType.punch);
+
         scoreText.text = currentScore.ToString();
     }
 }
