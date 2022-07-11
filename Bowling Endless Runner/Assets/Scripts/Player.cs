@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     public AudioClip hitBlockerAudio;
     public AudioClip hitBoolingAudio;
 
-
+    public bool isOutside = false;
     void Awake()
     {
 
@@ -45,11 +45,18 @@ public class Player : MonoBehaviour
     void Update()
     {
 
-        horizontal = right.value + left.value; // -1 + 1 = 0 | 0 + 1 = 1
-
-
+        horizontal = right.value + left.value; 
+        if(gameObject.transform.position.x >= 8.3f || gameObject.transform.position.x <=2.0f){
+            isOutside = true;
+        }
+        if (isOutside){
+             gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;  
+        }
 
         if (Input.GetKeyDown(KeyCode.R)) ResetLevel();
+
+        if (Input.GetKeyDown(KeyCode.Escape)) SceneManager.LoadScene("Main menu");
+
     }
 
     void FixedUpdate()
